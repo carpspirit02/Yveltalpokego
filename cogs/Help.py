@@ -4,7 +4,6 @@ import json
 import os
 import asyncio
 import asyncpg
-import dbl
 from discord.ext import commands
 
 emoji = '\N{Heavy Check Mark}'
