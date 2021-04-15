@@ -51,7 +51,7 @@ class Pokego(commands.Cog):
                         Name = "Mrmime"
                         result = await dex(self, str(Name))
                         embed = discord.Embed(title= result[0] + "    Mr. Mime   " + result[2] , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                         embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\n", inline=True)
                         embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                         embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -67,7 +67,7 @@ class Pokego(commands.Cog):
                         Name = "Mrrime"
                         result = await dex(self, str(Name))
                         embed = discord.Embed(title= result[0] + "    Mr. Rime   " + result[2] , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                         embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\n", inline=True)
                         embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                         embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -92,7 +92,7 @@ class Pokego(commands.Cog):
                 Name = "Mimejr"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "    Mime Jr.   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -108,7 +108,7 @@ class Pokego(commands.Cog):
                 Name = "Nidoranf"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "   Nidoran♀️   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -124,7 +124,7 @@ class Pokego(commands.Cog):
                 Name = "Nidoranm"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "   Nidoran♂️   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -171,7 +171,7 @@ class Pokego(commands.Cog):
                     TrName = "Origingiratina"
                     result = await dex(self, str(TrName))
                     embed = discord.Embed(title= result[0] + "   Origin Giratina   " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -193,7 +193,7 @@ class Pokego(commands.Cog):
                 TrName = "Wormadamt"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "   " + Name + "   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -207,7 +207,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = dex(str(StName))
                 embed = discord.Embed(title= result[0] + "   " + Name + "   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+StName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+StName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -218,7 +218,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = await dex(self, str(TrName))
                 embed = discord.Embed(title= result[0] + "   " + Name + "   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+TrName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+TrName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -233,7 +233,7 @@ class Pokego(commands.Cog):
                 SName = "Sdeoxys"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Normal Forme   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -247,7 +247,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = dex(str(AName))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Attack Form   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+AName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+AName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -258,7 +258,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = dex(str(DName))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Defense Form   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+DName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+DName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -269,7 +269,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = dex(str(SName))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Speed Form   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+SName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+SName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -282,7 +282,7 @@ class Pokego(commands.Cog):
                 OName = "Ogiratina"
                 result = await dex(self, str(Name))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Altered Forme   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -293,7 +293,7 @@ class Pokego(commands.Cog):
                 await ctx.send(embed=embed)
                 result = await dex(str(OName))
                 embed = discord.Embed(title= result[0] + "   " + Name + " Origin Forme   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+OName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+OName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -310,7 +310,7 @@ class Pokego(commands.Cog):
                     Tname = "Tthundurus"
                     result = await dex(self, str(Tname))
                     embed = discord.Embed(title= result[0] + "   Therian " + content[2].capitalize() + "  " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -326,7 +326,7 @@ class Pokego(commands.Cog):
                     Tname = "Ttornadus"
                     result = await dex(self, str(Tname))
                     embed = discord.Embed(title= result[0] + "   Therian " + content[2].capitalize() + "  " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -342,7 +342,7 @@ class Pokego(commands.Cog):
                     Tname = "Tlandorus"
                     result = await dex(self, str(Tname))
                     embed = discord.Embed(title= result[0] + "   Therian " + content[2].capitalize() + "  " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Tname+".png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -366,7 +366,7 @@ class Pokego(commands.Cog):
                     await ctx.send('This Pokémon does not exist!')
                 elif result != None:
                     embed = discord.Embed(title= result[0] + "   " + Name + "   " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -395,7 +395,7 @@ class Pokego(commands.Cog):
             AName = GaName
             result = await aloladex(self, str(AName))
             embed = discord.Embed(title= result[0] + "   Alolan " + AName + "   " + result[2] , description="", color=0x2962FF)
-            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+AName+".png")
+            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+AName+".png")
             embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
             embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
             embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -432,7 +432,7 @@ class Pokego(commands.Cog):
                     Name = "Mrmime"
                     result = await galardex(self, str(Name))
                     embed = discord.Embed(title= result[0] + "   Galarian Mr. Mime   " + result[2] , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Name+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Name+".png")
                     embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                     embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                     embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -451,7 +451,7 @@ class Pokego(commands.Cog):
             if GlName == "Farfetch'd":
                 result = await galardex(self, str("Farfetch''d"))
                 embed = discord.Embed(title= result[0] + "   Galarian " + GlName + "   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/Farfetchd.png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/Farfetchd.png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -466,7 +466,7 @@ class Pokego(commands.Cog):
             else:
                 result = await galardex(self, str(GlName))
                 embed = discord.Embed(title= result[0] + "   Galarian " + GlName + "   " + result[2] , description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
                 embed.add_field(name="Misc. info", value="**"+result[1]+"**\nHeight/Weight: \n**"+result[3]+"m** / **"+result[4]+"kg**\nBuddy Dist: **"+result[18]+"**", inline=True)
                 embed.add_field(name="Go Stats", value="Max CP: **"+ result[5] +"**\n(Lvl 50, 100% IV)\nAtk: **"+result[6]+"**\nDef: **"+result[7]+"**\nSta: **"+result[8]+"**\n", inline=True)
                 embed.add_field(name="Shiny",value="Shiny Available?: **"+result[9]+"**\nTimed Shiny?: **"+result[10]+"**\nRaid Shiny?: **"+result[11]+"**\nEgg Shiny?: **"+result[12]+"**\nResearch Shiny?: **"+result[13]+"**\n",inline=True)
@@ -493,9 +493,9 @@ class Pokego(commands.Cog):
             if name not in leaders:
                 name = name + " Grunt"
             embed = discord.Embed(title= name+"'s Current and Past Shadow Pokemon" , description="", color=0x2962FF)
-            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Rocket/Grunt.png")
+            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Rocket/Grunt.png")
             if name in leaders:
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Rocket/"+name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Rocket/"+name+".png")
             embed.add_field(name="First Pokemon:", value=str(Rocketdata[0]), inline=True)
             embed.add_field(name="Second Pokemon:", value=str(Rocketdata[1]), inline=True)
             embed.add_field(name="Third Pokemon:",value=str(Rocketdata[2]), inline=True)
@@ -534,7 +534,7 @@ class Pokego(commands.Cog):
             Cname = name.capitalize()
             result = await PokemonHundoAlolan(self, name)
             Hundo = discord.Embed(title= "Alolan " + Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
+            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
             Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
             Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
             Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -558,7 +558,7 @@ class Pokego(commands.Cog):
             Hundo = discord.Embed(title= "Galarian " + Cname + "'s Hundo Chart" , description="", color=0x2962FF)
             if Cname =="Farfetch'd":
                 Cname = "Farfetchd"
-            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
+            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
             Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
             Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
             Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -580,7 +580,7 @@ class Pokego(commands.Cog):
                 Cname = name.capitalize()
                 result = await PokemonHundo(self, Aname)
                 Hundo = discord.Embed(title= "Armored " + Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -607,7 +607,7 @@ class Pokego(commands.Cog):
                 Cname = name.capitalize()
                 result = await PokemonHundo(self, Aname)
                 Hundo = discord.Embed(title= "Origin Forme " + Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -633,7 +633,7 @@ class Pokego(commands.Cog):
             Cname = name.capitalize()
             result = await PokemonHundo(self, Aname)
             Hundo = discord.Embed(title= "Attack Forme " + Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
+            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
             Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
             Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
             Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -654,7 +654,7 @@ class Pokego(commands.Cog):
             Cname = name.capitalize()
             result = await PokemonHundo(self, Aname)
             Hundo = discord.Embed(title= "Defense Forme "+ Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
+            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
             Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
             Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
             Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -675,7 +675,7 @@ class Pokego(commands.Cog):
             Cname = name.capitalize()
             result = await PokemonHundo(self, name)
             Hundo = discord.Embed(title= "Speed Forme "+ Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
+            Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
             Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
             Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
             Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -696,7 +696,7 @@ class Pokego(commands.Cog):
                 Cname = name.capitalize()
                 result = await PokemonHundo(self, "Ttornadus")
                 Hundo = discord.Embed(title= "Therian "+ Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ttornadus.png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ttornadus.png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -716,7 +716,7 @@ class Pokego(commands.Cog):
                 Cname = name.capitalize()
                 result = await PokemonHundo(self, "Tthundurus")
                 Hundo = discord.Embed(title= "Therian "+ Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Tthundurus.png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Tthundurus.png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -736,7 +736,7 @@ class Pokego(commands.Cog):
                 Cname = name.capitalize()
                 result = await PokemonHundo(self, "Tlandorus")
                 Hundo = discord.Embed(title= "Therian "+ Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Tlandorus.png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Tlandorus.png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -757,7 +757,7 @@ class Pokego(commands.Cog):
                 Cname = "Mr. Mime"
                 result = await PokemonHundo(self, name)
                 Hundo = discord.Embed(title= Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Mrmime.png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Mrmime.png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -772,7 +772,7 @@ class Pokego(commands.Cog):
             else:
                 result = await PokemonHundo(self, name)
                 Hundo = discord.Embed(title= Cname + "'s Hundo Chart" , description="", color=0x2962FF)
-                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                Hundo.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                 Hundo.add_field(name="Level to 1-10:", value="Level 1:  **"+str(result[0])+"**\nLevel 2:  **"+str(result[1])+"**\nLevel 3:  **"+str(result[2])+"**\nLevel 4:  **"+str(result[3])+"**\nLevel 5:  **"+str(result[4])+"**\nLevel 6:  **"+str(result[5])+"**\nLevel 7:  **"+str(result[6])+"**\n Level 8:  **"+str(result[7])+"**\nLevel 9:  **"+str(result[8])+"**\nLevel 10:  **"+str(result[9])+"**", inline=True)
                 Hundo.add_field(name="Level to 11-20:", value="Level 11:  **"+str(result[10])+"**\nLevel 12:  **"+str(result[11])+"**\nLevel 13:  **"+str(result[12])+"**\nLevel 14:  **"+str(result[13])+"**\nLevel 15:  **"+str(result[14])+"**\nLevel 16:  **"+str(result[15])+"**\nLevel 17:  **"+str(result[16])+"**\nLevel 18:  **"+str(result[17])+"**\nLevel 19:  **"+str(result[18])+"**\nLevel 20:  **"+str(result[19])+"**", inline=True)
                 Hundo.add_field(name="Level to 21-30:", value="Level 21:  **"+str(result[20])+"**\nLevel 22:  **"+str(result[21])+"**\nLevel 23:  **"+str(result[22])+"**\nLevel 24:  **"+str(result[23])+"**\nLevel 25:  **"+str(result[24])+"**\nLevel 26:  **"+str(result[25])+"**\nLevel 27:  **"+str(result[26])+"**\nLevel 28:  **"+str(result[27])+"**\nLevel 29:  **"+str(result[28])+"**\nLevel 30:  **"+str(result[29])+"**", inline=True)
@@ -851,7 +851,7 @@ class Pokego(commands.Cog):
             if SIVA >= 15:
                 SIVA = 15
             Pure = discord.Embed(title= name + "'s Purified Stats" , description="", color=0x2962FF)
-            Pure.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+            Pure.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
             Pure.add_field(name="Attack IV Shadow:", value="**"+str(AIVB)+"**", inline=True)
             Pure.add_field(name="Defense IV Shadow:", value="**"+str(DIVB)+"**", inline=True)
             Pure.add_field(name="HP IV Shadow:", value="**"+str(SIVB)+"**", inline= True)
@@ -908,7 +908,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Alolan " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -918,7 +918,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Alolan " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -931,7 +931,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Alolan " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -941,7 +941,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Alolan " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -994,7 +994,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Galarian " + name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1004,7 +1004,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Galarian " + name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1017,7 +1017,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Galarian " + name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1027,7 +1027,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Galarian " + name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+Cname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1067,7 +1067,7 @@ class Pokego(commands.Cog):
                                     UP = "~~"+str(UP)+"~~"
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard X's PvP Comparison" , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1077,7 +1077,7 @@ class Pokego(commands.Cog):
                                 else:
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard X's PvP Comparison"  , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1090,7 +1090,7 @@ class Pokego(commands.Cog):
                                     UP = "~~"+str(UP)+"~~"
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard X's PvP Comparison"  , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1100,7 +1100,7 @@ class Pokego(commands.Cog):
                                 else:
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard X's PvP Comparison"  , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Xcharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1125,7 +1125,7 @@ class Pokego(commands.Cog):
                             if UP > 100.00:
                                 UP = "~~"+str(UP)+"~~"
                                 embed = discord.Embed(title= "Mega Mewtwo X's PvP Comparison"  , description="", color=0x2962FF)
-                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(ishiny)+"/Xmewtwo.png")
+                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(ishiny)+"/Xmewtwo.png")
                                 embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                 embed.add_field(name="\u200B", value="\u200B", inline=True)
                                 embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1134,7 +1134,7 @@ class Pokego(commands.Cog):
                                 await ctx.send(embed=embed)
                             else:
                                 embed = discord.Embed(title= "Mega Mewtwo X's PvP Comparison"  , description="", color=0x2962FF)
-                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Xmewtwo.png")
+                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Xmewtwo.png")
                                 embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                 embed.add_field(name="\u200B", value="\u200B", inline=True)
                                 embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1167,7 +1167,7 @@ class Pokego(commands.Cog):
                                     UP = "~~"+str(UP)+"~~"
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard Y's PvP Comparison" , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Ycharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Ycharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1177,7 +1177,7 @@ class Pokego(commands.Cog):
                                 else:
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard Y's PvP Comparison" , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Ycharizard.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Ycharizard.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1190,7 +1190,7 @@ class Pokego(commands.Cog):
                                     UP = "~~"+str(UP)+"~~"
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard Y's PvP Comparison" , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/CharizardY.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/CharizardY.png")
 
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1200,7 +1200,7 @@ class Pokego(commands.Cog):
                                 else:
                                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                                     embed = discord.Embed(title= "Mega Charizard Y's PvP Comparison" , description="", color=0x2962FF)
-                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/CharizardY.png")
+                                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/CharizardY.png")
                                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                     embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1225,7 +1225,7 @@ class Pokego(commands.Cog):
                             if UP > 100.00:
                                 UP = "~~"+str(UP)+"~~"
                                 embed = discord.Embed(title= "Mega Mewtwo Y's PvP Comparison"  , description="", color=0x2962FF)
-                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Ymewtwo.png")
+                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Ymewtwo.png")
                                 embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                 embed.add_field(name="\u200B", value="\u200B", inline=True)
                                 embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1234,7 +1234,7 @@ class Pokego(commands.Cog):
                                 await ctx.send(embed=embed)
                             else:
                                 embed = discord.Embed(title= "Mega Mewtwo Y's PvP Comparison"  , description="", color=0x2962FF)
-                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/Ymewtwo.png")
+                                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/Ymewtwo.png")
                                 embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                                 embed.add_field(name="\u200B", value="\u200B", inline=True)
                                 embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1258,7 +1258,7 @@ class Pokego(commands.Cog):
                     if UP > 100.00:
                         UP = "~~"+str(UP)+"~~"
                         embed = discord.Embed(title= "Mega "+ Mname +"'s PvP Comparison"  , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="\u200B", value="\u200B", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1267,7 +1267,7 @@ class Pokego(commands.Cog):
                         await ctx.send(embed=embed)
                     else:
                         embed = discord.Embed(title= "Mega "+ Mname +"'s PvP Comparison"  , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="\u200B", value="\u200B", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1295,7 +1295,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= "Mega " + Mname + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1305,7 +1305,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= "Mega " + Mname + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1318,7 +1318,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= "Mega " + Mname + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1328,7 +1328,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= "Mega " + Mname + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Mega/"+str(isshiny)+"/"+Mname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1360,7 +1360,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Armored " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1370,7 +1370,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Armored " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1383,7 +1383,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Armored " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1393,7 +1393,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= "Armored " + Cname + "'s PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Aname+".png")
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                         embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1427,7 +1427,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= Cname + " Origin Forme's PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
 
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1438,7 +1438,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= Cname + " Origin Forme's PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
 
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1452,7 +1452,7 @@ class Pokego(commands.Cog):
                         UP = "~~"+str(UP)+"~~"
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= Cname + " Origin Forme's PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
 
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1463,7 +1463,7 @@ class Pokego(commands.Cog):
                     else:
                         MP = round(((YPKM[2] / MPKM[2])*100),2)
                         embed = discord.Embed(title= Cname + " Origin Forme's PvP Comparison" , description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ogiratina.png")
 
                         embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                         embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1497,7 +1497,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Attack Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1508,7 +1508,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Attack Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1521,7 +1521,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Attack Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1532,7 +1532,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Attack Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Adeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1564,7 +1564,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Defense Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1575,7 +1575,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Defense Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1589,7 +1589,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Defense Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1600,7 +1600,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Defense Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Ddeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1632,7 +1632,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Speed Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1643,7 +1643,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Speed Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1657,7 +1657,7 @@ class Pokego(commands.Cog):
                     UP = "~~"+str(UP)+"~~"
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Speed Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1668,7 +1668,7 @@ class Pokego(commands.Cog):
                 else:
                     MP = round(((YPKM[2] / MPKM[2])*100),2)
                     embed = discord.Embed(title= Cname + " Speed Forme's PvP Comparison" , description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/Sdeoxys.png")
 
                     embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                     embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1723,7 +1723,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
 
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1734,7 +1734,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
 
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1748,7 +1748,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
 
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1759,7 +1759,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
 
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
@@ -1789,7 +1789,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1799,7 +1799,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1812,7 +1812,7 @@ class Pokego(commands.Cog):
                             UP = "~~"+str(UP)+"~~"
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1822,7 +1822,7 @@ class Pokego(commands.Cog):
                         else:
                             MP = round(((YPKM[2] / MPKM[2])*100),2)
                             embed = discord.Embed(title= name.capitalize() + "'s PvP Comparison" , description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Cname+".png")
                             embed.add_field(name="Great League:", value="CP: **"+str(GPKM[0])+ "**\nLevel: **" +str(GPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(GPKM[3])+"**\nDef IV: **"+str(GPKM[4])+"**\nHP IV: **" +str(GPKM[5]) + "**", inline=True)
                             embed.add_field(name="Ultra League:",value="CP: **"+str(UPKM[0])+ "**\nLevel: **" +str(UPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(UPKM[3])+"**\nDef IV: **"+str(UPKM[4])+"**\nHP IV: **" +str(UPKM[5])+ "**", inline=True)
                             embed.add_field(name="Master League:",value="CP: **"+str(MPKM[0])+ "**\nLevel: **" +str(MPKM[1])+ "**\nPVP%: **100%** \nAtk IV: **"+str(MPKM[3])+"**\nDef IV: **"+str(MPKM[4])+"**\nHP IV: **" +str(MPKM[5])+ "**",inline=True)
@@ -1875,7 +1875,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title= "Alolan "+str(GaName)+"'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Alolan/"+str(isshiny)+"/"+GaName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Alolan/"+str(isshiny)+"/"+GaName+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -1923,7 +1923,7 @@ class Pokego(commands.Cog):
                         TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                         TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                         embed = discord.Embed(title= "Galarian "+str(GlName)+"'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
                         embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                         embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                         embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -1966,7 +1966,7 @@ class Pokego(commands.Cog):
                         TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                         TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                         embed = discord.Embed(title= "Galarian "+str(GlName)+"'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+GlmName+".png")
+                        embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+GlmName+".png")
                         embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                         embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                         embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2006,7 +2006,7 @@ class Pokego(commands.Cog):
                             TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                             TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                             embed = discord.Embed(title= "Galarian "+str(GlName)+"'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+str(w)+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+str(w)+".png")
                             embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                             embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                             embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2042,7 +2042,7 @@ class Pokego(commands.Cog):
                             TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                             TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                             embed = discord.Embed(title= "Galarian "+str(GlName)+"'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
+                            embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/Galarian/"+str(isshiny)+"/"+GlName+".png")
                             embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                             embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                             embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2087,7 +2087,7 @@ class Pokego(commands.Cog):
                     TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                     TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                     embed = discord.Embed(title= "Mr. Mime's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+RName+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+RName+".png")
                     embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                     embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                     embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2131,7 +2131,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  "Mime Jr's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+RName+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+RName+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2169,7 +2169,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  "Nidoran\U00002640's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2207,7 +2207,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  "Nidoran\U00002642's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2244,7 +2244,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2281,7 +2281,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2318,7 +2318,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2355,7 +2355,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2392,7 +2392,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2433,7 +2433,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + " Deoxys's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2474,7 +2474,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + " Deoxys's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2515,7 +2515,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + " Deoxys's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2569,7 +2569,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2610,7 +2610,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + " Giratina's Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2647,7 +2647,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2686,7 +2686,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2725,7 +2725,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2764,7 +2764,7 @@ class Pokego(commands.Cog):
                 TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                 TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                 embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                 embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                 embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                 embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
@@ -2812,7 +2812,7 @@ class Pokego(commands.Cog):
                     TrueSpeedHigh = SpeedGotohomeHigh(int(15),int(result[5]),Level)
                     TrueSpeedNHigh = SpeedGotohomeNHigh(int(15),int(result[5]),Level)
                     embed = discord.Embed(title=  Name + "'s Pokemon Go to Home Stat Conversion", description="", color=0x2962FF)
-                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/Sollisnexus/Nexus-Z/master/PokemonImages/"+str(isshiny)+"/"+Name+".png")
+                    embed.set_thumbnail(url= "https://raw.githubusercontent.com/carpspirit02/Yveltalpokego/main/PokemonImages/"+str(isshiny)+"/"+Name+".png")
                     embed.add_field(name="'-' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKLow)+"**\nDef: \n**"+str(TrueDEFLow)+"**\nSPA: \n**"+str(TrueSPALow)+"**\nSPD: \n**"+str(TrueSPDLow)+"**\nSpeed: \n**"+str(TrueSpeedNLow)+"-"+str(TrueSpeedLow)+"**",inline=True)
                     embed.add_field(name="Neutral Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATK)+"**\nDef: \n**"+str(TrueDEF)+"**\nSPA: \n**"+str(TrueSPA)+"**\nSPD: \n**"+str(TrueSPD)+"**\nSpeed: \n**"+str(TrueSpeedLow)+"-"+str(TrueSpeedHigh)+"**", inline=True)
                     embed.add_field(name="'+' Nature", value="HP: \n**"+str(TrueHP)+"**\nATK: \n**"+str(TrueATKHigh)+"**\nDef: \n**"+str(TrueDEFHigh)+"**\nSPA: \n**"+str(TrueSPAHigh)+"**\nSPD: \n**"+str(TrueSPDHigh)+"**\nSpeed: \n**"+str(TrueSpeedHigh)+"-"+str(TrueSpeedNHigh)+"**", inline=True)
